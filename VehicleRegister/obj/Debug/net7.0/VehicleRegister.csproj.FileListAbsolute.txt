@@ -1,0 +1,14 @@
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\bin\Debug\net7.0\VehicleRegister.exe
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\bin\Debug\net7.0\VehicleRegister.deps.json
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\bin\Debug\net7.0\VehicleRegister.runtimeconfig.json
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\bin\Debug\net7.0\VehicleRegister.dll
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\bin\Debug\net7.0\VehicleRegister.pdb
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\VehicleRegister.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\VehicleRegister.AssemblyInfoInputs.cache
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\VehicleRegister.AssemblyInfo.cs
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\VehicleRegister.csproj.CoreCompileInputs.cache
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\VehicleRegister.dll
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\refint\VehicleRegister.dll
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\VehicleRegister.pdb
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\VehicleRegister.genruntimeconfig.cache
+C:\Users\ronny\Koder\Gokstad\Undervisning\Undervisning2\VehicleRegister\VehicleRegister\obj\Debug\net7.0\ref\VehicleRegister.dll
