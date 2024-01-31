@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jf+9KTdvxDg5uUlv724NYVh0+n3+qvKs0Ea8zuGlK7heNehyGc2GFSnVQj0/Q408jncf79heqRZ29iROn55KiQ==",
+  "dgSpecHash": "57ZtcI1Jfb/cooQlW0Ftv1Gy0oPr7Se84fHJBzNYhyVW4h8FDQc3C+WH9E8yyJb+qtRH/hIg4GKLjFdOJ5YIrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ronny\\Koder\\Gokstad\\Undervisning\\Undervisning2\\VehicleRegister\\VehicleRegister\\VehicleRegister.csproj",
+  "projectFilePath": "C:\\Users\\ronny\\Koder\\C-Sharp Gokstad undervisning\\OOP_GA\\VehicleRegister\\VehicleRegister.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ronny\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\ronny\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
