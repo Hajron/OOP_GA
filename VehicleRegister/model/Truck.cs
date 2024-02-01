@@ -1,14 +1,19 @@
-
 public class Truck : Vehicle
-{ 
-    public int LoadCapacity{ get; set; }
+{
+    public int LoadCapacity { get; set; }
+
+    public Truck(string plateNumber, string brand, string model, int yearModel, int loadCapacity)
+        : base(plateNumber, brand, model, yearModel)
+    {
+        LoadCapacity = loadCapacity;
+    }
 
     public override void DisplayInfo()
     {
         base.DisplayInfo();
         Console.WriteLine($"Lastekapasitet: {LoadCapacity}");
     }
-    
+
     public static Truck CreateTruck()
     {
         Console.WriteLine("Skiltnummer: ");
@@ -22,13 +27,6 @@ public class Truck : Vehicle
         Console.WriteLine("Lastekapasitet: ");
         var loadCapacity = int.Parse(Console.ReadLine());
 
-        return new Truck()
-        {
-            PlateNumber = plateNumber,
-            Brand = brand,
-            Model = model,
-            YearModel = yearModel,
-            LoadCapacity = loadCapacity
-        };
+        return new Truck(plateNumber, brand, model, yearModel, loadCapacity);
     }
 }

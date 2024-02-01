@@ -1,10 +1,18 @@
-
 public class Boat : Vehicle
 {
     public string RegNumber { get; set; }
     public string Length { get; set; }
     public string Width { get; set; }
     public string Horsepower { get; set; }
+
+    public Boat(string plateNumber, string brand, string model, int yearModel, string regNumber, string length, string width, string horsepower)
+        : base(plateNumber, brand, model, yearModel)
+    {
+        RegNumber = regNumber;
+        Length = length;
+        Width = width;
+        Horsepower = horsepower;
+    }
 
     public override void DisplayInfo()
     {
@@ -32,16 +40,6 @@ public class Boat : Vehicle
         Console.WriteLine("Hestekrefter: ");
         var horsePower = Console.ReadLine();
 
-        return new Boat
-        {
-            RegNumber = regNumber,
-            Brand = brand,
-            Model = model,
-            YearModel = yearModel,
-            Length = length,
-            Width = width,
-            Horsepower = horsePower,
-        };
-
+        return new Boat(regNumber, brand, model, yearModel, regNumber, length, width, horsePower);
     }
 }

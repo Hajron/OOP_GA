@@ -2,12 +2,18 @@ public class Motorcycle : Vehicle
 {
     public bool HasSidecar { get; set; }
 
+    public Motorcycle(string plateNumber, string brand, string model, int yearModel, bool hasSidecar)
+        : base(plateNumber, brand, model, yearModel)
+    {
+        HasSidecar = hasSidecar;
+    }
+
     public override void DisplayInfo()
     {
         base.DisplayInfo();
         Console.WriteLine($"Sidevogn: {(HasSidecar ? "Ja" : "Nei")}");
     }
-    
+
     public static Motorcycle CreateMotorcycle()
     {
         Console.WriteLine("Skiltnummer: ");
@@ -21,13 +27,6 @@ public class Motorcycle : Vehicle
         Console.WriteLine("Sidevogn? (Ja/nei): ");
         bool sideCar = Console.ReadLine().ToLower() == "ja";
 
-        return new Motorcycle()
-        {
-            PlateNumber = plateNumber,
-            Brand = brand,
-            Model = model,
-            YearModel = yearModel,
-            HasSidecar = sideCar
-        };
+        return new Motorcycle(plateNumber, brand, model, yearModel, sideCar);
     }
 }
